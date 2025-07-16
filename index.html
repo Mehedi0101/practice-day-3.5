@@ -27,30 +27,138 @@
                 <h3 class="text-sm text-gray-500 mb-5 font-medium">TOTAL TASK</h3>
                 <div class="flex justify-between">
                     <p class="text-sm text-gray-500">11 last month</p>
-                    <div class="h-12 w-12 rounded-full bg-blue-100 text-blue-500 flex justify-center items-center"><i class="fa-regular fa-clipboard text-xl"></i></div>
+                    <div class="h-12 w-12 rounded-full bg-blue-100 text-blue-500 flex justify-center items-center"><i
+                            class="fa-regular fa-clipboard text-xl"></i></div>
                 </div>
             </a>
             <a>
                 <h3 class="text-sm text-gray-500 mb-5 font-medium">COMPLETED TASK</h3>
                 <div class="flex justify-between">
                     <p class="text-sm text-gray-500">11 last month</p>
-                    <div class="h-12 w-12 rounded-full bg-green-100 text-green-500 flex justify-center items-center"><i class="fa-regular fa-circle-check text-xl"></i></div>
+                    <div class="h-12 w-12 rounded-full bg-green-100 text-green-500 flex justify-center items-center"><i
+                            class="fa-regular fa-circle-check text-xl"></i></div>
                 </div>
             </a>
             <a>
                 <h3 class="text-sm text-gray-500 mb-5 font-medium">TASK IN PROGRESS</h3>
                 <div class="flex justify-between">
                     <p class="text-sm text-gray-500">11 last month</p>
-                    <div class="h-12 w-12 rounded-full bg-amber-100 text-amber-500 flex justify-center items-center"><i class="fa-regular fa-clock text-xl"></i></div>
+                    <div class="h-12 w-12 rounded-full bg-amber-100 text-amber-500 flex justify-center items-center"><i
+                            class="fa-regular fa-clock text-xl"></i></div>
                 </div>
             </a>
             <a>
                 <h3 class="text-sm text-gray-500 mb-5 font-medium">TODOS</h3>
                 <div class="flex justify-between">
                     <p class="text-sm text-gray-500">11 last month</p>
-                    <div class="h-12 w-12 rounded-full bg-violet-100 text-violet-500 flex justify-center items-center"><i class="fa-regular fa-clipboard text-xl"></i></div>
+                    <div class="h-12 w-12 rounded-full bg-violet-100 text-violet-500 flex justify-center items-center">
+                        <i class="fa-regular fa-clipboard text-xl"></i>
+                    </div>
                 </div>
             </a>
+        </div>
+
+        <!-- task section -->
+        <div class="p-12 grid grid-cols-2 gap-20">
+            <div>
+                <h2 class="text-2xl font-bold mb-4">Today's Tasks</h2>
+                <div class="space-y-4">
+                    <div class="flex justify-between">
+                        <div class="flex items-center gap-2">
+                            <div class="w-2 h-2 rounded-full bg-green-500"></div>
+                            <p>Complete project proposal</p>
+                        </div>
+                        <p class="text-gray-500 text-sm">High</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="flex items-center gap-2">
+                            <div class="w-2 h-2 rounded-full bg-yellow-500"></div>
+                            <p>Review team updates</p>
+                        </div>
+                        <p class="text-gray-500 text-sm">Normal</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="flex items-center gap-2">
+                            <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+                            <p>Prepare for client meeting</p>
+                        </div>
+                        <p class="text-gray-500 text-sm">Low</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-2xl font-bold mb-4">All Tasks</h2>
+                <table class="w-full">
+                    <thead class="text-gray-500 font-bold">
+                        <td class="pb-4">TASK TITLE</td>
+                        <td class="pb-4">PRIORITY</td>
+                        <td class="pb-4">TEAM</td>
+                        <td class="pb-4">CREATED AT</td>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="flex items-center gap-2 pb-4">
+                                <div class="h-2 w-2 rounded-full bg-green-500"></div>
+                                <span>Test Low Task</span>
+                            </td>
+                            <td class="pb-4"><span class="px-2 py-1 rounded bg-blue-100 text-blue-600 text-sm">Low</span></td>
+                            <td class="flex -space-x-2 pb-4">
+                                <div
+                                    class="h-7 w-7 rounded-full bg-blue-500 text-white text-xs flex justify-center items-center">
+                                    CA</div>
+                                <div
+                                    class="h-7 w-7 rounded-full bg-green-500 text-white text-xs flex justify-center items-center">
+                                    JS</div>
+                                <div
+                                    class="h-7 w-7 rounded-full bg-yellow-500 text-white text-xs flex justify-center items-center">
+                                    B</div>
+                            </td>
+                            <td class="text-sm text-gray-500 pb-4">9 months ago</td>
+                        </tr>
+                        <tr>
+                            <td class="flex items-center gap-2 pb-4">
+                                <div class="h-2 w-2 rounded-full bg-yellow-500"></div>
+                                <span>Test Task</span>
+                            </td>
+                            <td class="pb-4"><span class="px-2 py-1 rounded bg-gray-100 text-gray-700 text-sm">Normal</span></td>
+                            <td class="flex -space-x-2 pb-4">
+                                <div
+                                    class="h-7 w-7 rounded-full bg-red-500 text-white text-xs flex justify-center items-center">
+                                    AJ</div>
+                                <div
+                                    class="h-7 w-7 rounded-full bg-violet-500 text-white text-xs flex justify-center items-center">
+                                    EV</div>
+                                <div
+                                    class="h-7 w-7 rounded-full bg-yellow-500 text-white text-xs flex justify-center items-center">
+                                    B</div>
+                            </td>
+                            <td class="text-sm text-gray-500 pb-4">9 months ago</td>
+                        </tr>
+                        <tr>
+                            <td class="flex items-center gap-2 pb-4">
+                                <div class="h-2 w-2 rounded-full bg-red-500"></div>
+                                <span>Test Task</span>
+                            </td>
+                            <td class="pb-4"><span class="px-2 py-1 rounded bg-red-100 text-red-600 text-sm">High</span></td>
+                            <td class="flex -space-x-2 pb-4">
+                                <div
+                                    class="h-7 w-7 rounded-full bg-blue-500 text-white text-xs flex justify-center items-center">
+                                    CA</div>
+                                <div
+                                    class="h-7 w-7 rounded-full bg-green-500 text-white text-xs flex justify-center items-center">
+                                    JS</div>
+                                <div
+                                    class="h-7 w-7 rounded-full bg-red-500 text-white text-xs flex justify-center items-center">
+                                    AJ</div>
+                                <div
+                                    class="h-7 w-7 rounded-full bg-yellow-500 text-white text-xs flex justify-center items-center">
+                                    B</div>
+                            </td>
+                            <td class="text-sm text-gray-500 pb-4">10 months ago</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </main>
 
